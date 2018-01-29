@@ -1,0 +1,71 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Tahoma.ttf);
+}
+body{
+	background: #171717;
+	width: auto;
+	height: auto;
+	overflow: auto;
+font-family: myFirstFont;
+	//font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+#title a{
+color:#C4C4C7;
+font-family: myFirstFont;
+}
+#title{
+text-align:center;
+    background: #2B2B2B; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3F3F40, #2B2B2B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3F3F40, #2B2B2B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3F3F40 ,#2B2B2B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3F3F40 ,#2B2B2B); /* Standard syntax */
+color: white;
+}
+#button{
+        background:#C4C4C7;
+	width: 45px;
+	height: auto;
+        border-radius: 10px;
+padding: 5px;
+}
+#foreground{
+	background:#C4C4C7;
+	width: auto;
+	height: auto;
+	margin: 20px;
+	border-radius: 10px;
+
+	padding: 5px;
+	text-align:center;
+	box-shadow: 10px 10px 5px #888888;
+}
+input[type=text] {
+    border: 2px solid #888888;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input[type=text]:focus {
+    border: 3px solid  #171717;
+}
+input[type=submit]{
+    background-color: #888888;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+border-radius: 4px;
+}
+input[type=radio] {
+background:#888888;
+}
